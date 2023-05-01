@@ -10,13 +10,11 @@ class Program
     static void Main(string[] args)
     {
         
-        Console.WriteLine("Digite a posicao da linha");
-        int psL = int.Parse(Console.ReadLine());
-        Console.WriteLine("Digite a posicao da coluna");
-        int psC = int.Parse(Console.ReadLine());
+        Tabuleiro tab = new Tabuleiro(8,8);
 
-        Posicao ps = new Posicao(psL, psC);
 
-        Console.WriteLine("Posicoes: l = "+  ps.linha + ", c = " + ps.coluna);
+
+
+
     }
 }
